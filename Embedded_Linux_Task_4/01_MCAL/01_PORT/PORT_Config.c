@@ -1,0 +1,128 @@
+/******************************************************************
+					Author  : Shirehan Medhat Abdeldsalam Ali
+					Date    : 3-12-2023
+					Driver  : PORT
+					File    : PORT_Config.h
+					Version : (1)
+*****************************************************************/
+
+/**************Include Header Files Of The driver**************/
+#include "PORT_Config.h"
+#include "PORT.h"
+
+
+/********************Initialization For The Array Filled By The User With The PIN Status*******************/
+
+/****************MACROS For Pin Options Placed In The Configuration File **********************************/
+/*
+OPTIONS:
+			1- PORT_enuInput_PU
+			2- PORT_enuInput_HI
+			3- PORT_enuOutPut_HIGH
+			4- PORT_enuOUTPUT_LOW
+			5- PORT_enuOUTPUT_DEFAULT
+*/
+
+
+#if CONFIGURATION_MODE == POST_COMPILE_CONFIG 
+	#if NUM_OF_PORTS == FOUR_PORTS
+
+	PORT_enuPinConfig_t POTR_PinCfg [NUM_OF_PINS] =
+	{ 
+		/*PORTA*/
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+	    /*PORTB*/
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		/*PORTC*/
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_LOW,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		/*PORTD*/
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_LOW,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT	
+	};
+
+	#elif NUM_OF_PORTS == THREE_PORTS
+	PORT_enuPinConfig_t POTR_PinCfg [NUM_OF_PINS] =
+	{
+		/*PORTA*/
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		/*PORTB*/
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		/*PORTC*/
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT
+	};
+	#elif NUM_OF_PORTS == TWO_PORTS
+	PORT_enuPinConfig_t POTR_PinCfg [NUM_OF_PINS] =
+	{
+		/*PORTA*/
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		/*PORTB*/
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT,
+		PORT_enuOUTPUT_DEFAULT
+	
+	};
+
+
+	#endif
+
+#endif
