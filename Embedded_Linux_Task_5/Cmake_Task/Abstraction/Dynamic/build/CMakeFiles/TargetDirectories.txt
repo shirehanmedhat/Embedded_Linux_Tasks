@@ -1,0 +1,6 @@
+/home/shirehan_medhat/Cmake_Task/Abstraction/Dynamic/build/CMakeFiles/SimpleProject.dir
+/home/shirehan_medhat/Cmake_Task/Abstraction/Dynamic/build/CMakeFiles/edit_cache.dir
+/home/shirehan_medhat/Cmake_Task/Abstraction/Dynamic/build/CMakeFiles/rebuild_cache.dir
+/home/shirehan_medhat/Cmake_Task/Abstraction/Dynamic/build/lib/CMakeFiles/operation.dir
+/home/shirehan_medhat/Cmake_Task/Abstraction/Dynamic/build/lib/CMakeFiles/edit_cache.dir
+/home/shirehan_medhat/Cmake_Task/Abstraction/Dynamic/build/lib/CMakeFiles/rebuild_cache.dir

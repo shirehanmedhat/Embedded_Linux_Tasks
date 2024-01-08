@@ -1,0 +1,5 @@
+Cmake_minimum_required(VERSION 3.22.0)
+Project (Simple Project
+	 DESCRIPTION "Calulator")
+
+add_excutable (${Project_NAME} calculator.c)

@@ -1,0 +1,4 @@
+/home/shirehan_medhat/Tasks/EM_LINUX/Task1/Dynamic/build/CMakeFiles/SimpleProject.dir
+/home/shirehan_medhat/Tasks/EM_LINUX/Task1/Dynamic/build/CMakeFiles/operation.dir
+/home/shirehan_medhat/Tasks/EM_LINUX/Task1/Dynamic/build/CMakeFiles/edit_cache.dir
+/home/shirehan_medhat/Tasks/EM_LINUX/Task1/Dynamic/build/CMakeFiles/rebuild_cache.dir
