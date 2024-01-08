@@ -1,0 +1,4 @@
+/home/shirehan_medhat/Cmake_Task/No_Abstraction/Static/build/CMakeFiles/SimpleProject.dir
+/home/shirehan_medhat/Cmake_Task/No_Abstraction/Static/build/CMakeFiles/operation.dir
+/home/shirehan_medhat/Cmake_Task/No_Abstraction/Static/build/CMakeFiles/edit_cache.dir
+/home/shirehan_medhat/Cmake_Task/No_Abstraction/Static/build/CMakeFiles/rebuild_cache.dir
